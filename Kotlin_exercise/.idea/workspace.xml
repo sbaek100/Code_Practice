@@ -22,7 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1718ddbc-00b0-4ea0-9a97-e2065585124f" name="Default Changelist" comment="" />
+    <list default="true" id="46c87d9a-6912-49f6-bbf4-9fd4536dba0e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,17 +33,12 @@
       <ProjectState />
     </projectState>
   </component>
-  <component name="ExternalProjectsManager">
-    <system id="GRADLE">
-      <state>
-        <projects_view>
-          <tree_state>
-            <expand />
-            <select />
-          </tree_state>
-        </projects_view>
-      </state>
-    </system>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -55,7 +50,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1lSKIynauczLknpVjWUVKbBwApa" />
+  <component name="ProjectId" id="1lSKvZRtH1btWXWjuM1fGXpqW2b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -63,20 +58,36 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DefaultKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_exercise.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="DefaultKotlinKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DefaultKotlinKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1718ddbc-00b0-4ea0-9a97-e2065585124f" name="Default Changelist" comment="" />
-      <created>1607584976856</created>
+      <changelist id="46c87d9a-6912-49f6-bbf4-9fd4536dba0e" name="Default Changelist" comment="" />
+      <created>1607585285020</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607584976856</updated>
+      <updated>1607585285020</updated>
     </task>
     <servers />
   </component>
@@ -90,19 +101,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1480" y="94" width="1035" height="852" key="#Project_Structure" timestamp="1607585213095">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1480" y="94" width="1035" height="852" key="#Project_Structure/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607585213095" />
-    <state x="-1292" y="235" key="FileChooserDialogImpl" timestamp="1607585251318">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1292" y="235" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607585251318" />
-    <state x="-1464" y="202" key="new project wizard" timestamp="1607585283398">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1464" y="202" key="new project wizard/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607585283398" />
   </component>
 </project>
