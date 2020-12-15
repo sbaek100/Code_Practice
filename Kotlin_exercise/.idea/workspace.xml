@@ -36,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -61,7 +62,20 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.CallByValueKt">
+  <component name="RunManager" selected="Application.DataClassTestKt">
+    <configuration name="BirdSecondaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_exercise.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="re.seungsoo.classes.BirdSecondaryConstructorKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CallByValueKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Kotlin_exercise.main" />
       <option name="VM_PARAMETERS" />
@@ -75,27 +89,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="DataClassTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Kotlin_exercise.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="DefaultKotlinKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HighOrder2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="Kotlin_exercise.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="re.seungsoo.highorder.HighOrder2Kt" />
+      <option name="MAIN_CLASS_NAME" value="re.seungsoo.data.DataClassTestKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,12 +115,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VehicleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Kotlin_exercise.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="re.seungsoo.classes.VehicleKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CallByValueKt" />
-        <item itemvalue="Application.HighOrder2Kt" />
+        <item itemvalue="Application.DataClassTestKt" />
+        <item itemvalue="Application.VehicleKt" />
+        <item itemvalue="Application.BirdSecondaryConstructorKt" />
         <item itemvalue="Application.HighOrderKt" />
-        <item itemvalue="Application.DefaultKotlinKt" />
+        <item itemvalue="Application.CallByValueKt" />
       </list>
     </recent_temporary>
   </component>
@@ -147,37 +162,41 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1607641881768">
+    <state x="-1171" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1608013148380">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607641881768" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1607641881768">
+    <state x="-1171" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608013148380" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1608016202458">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607641881768" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1607641881767">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608016202458" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1608016202458">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607641881767" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1607641881768">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608016202458" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1608016202458">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607641881768" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607641882019">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608016202458" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1608016202458">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607641882019" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607641882018">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608016202458" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1607643012943">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607641882018" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607641882018">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607643012943" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1607643012943">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607641882018" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607641882018">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607643012943" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1607643012943">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607641882018" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607643012943" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1607643012943">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1607643012943" />
   </component>
 </project>
