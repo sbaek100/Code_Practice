@@ -1,0 +1,20 @@
+
+# 데이터 베이스 관련 설정 값을 입력하는 파일
+# yml 문법에 관한 설명 https://lejewk.github.io/yaml-syntax/
+# AWS 접속관련 offident79@kakao.com 백박사2020!
+# RDS 사용
+spring:
+  datasource:
+    url: jdbc:mysql://parayo-db-dev-01.c2sq7cf2q9hk.us-east-2.rds.amazonaws.com:3306/parayo?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: parayo #데이터베이스에 연결할 사용자 입니다.
+    password: parayopassword #비번
+    data-username: parayo #DML 스크립트 사용할때 ID, Password . 사실 Username 과동일하다면 생략 가능함.
+    data-password: parayopassword
+    driver-class-name: com.mysql.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update # 서버가 실행될 때, 자동으로 실행될 데이터베이스 스키마에 대한 DDL 정책임.
+      # update 는 테이블이 존재하지 않는다면 테이블을 생성해주고 스키마가 변경된다면 변경을 시켜 업데이트를 하는 것
+      # 현재는 자동화 해서 편하긴 한데, 나중에 설정을 바꾸어 주자.
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect

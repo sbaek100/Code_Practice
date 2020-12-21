@@ -1,0 +1,64 @@
+/* 2020.12.18. Written by Seungsoo
+* 의존성이나 플러그인 설정 등을 위한 스크립트 파일
+* 참조:https://effectivesquid.tistory.com/entry/Gradle-%EB%B9%8C%EB%93%9C%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B8%B0%EC%B4%88
+*/
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.21'
+    id 'org.springframework.boot' version '2.1.5.RELEASE' //스프링 부트 플러그인을 사용하기 위함.
+    id 'org.jetbrains.kotlin.plugin.spring' version '1.3.30' // 매번 Open 을 통해 상속함을 막기 위함
+    id 'org.jetbrains.kotlin.plugin.jpa' version '1.3.30' // JPA 에서 사용하는 엔티티 클래스를 상속하기 위함
+    /*JPA(Java Persistent API) JPA는 여러 ORM 전문가가 참여한 EJB 3.0 스펙 작업에서 기존 EJB ORM이던
+    Entity Bean을 JPA라고 바꾸고 JavaSE, JavaEE를 위한 영속성(persistence) 관리와 ORM을 위한 표준 기술이다.
+    ORM(Object Relational Mapping)이란 RDB 테이블을 객체지향적으로 사용하기 위한 기술이다.
+     ORM을 사용해 오브젝트와 RDB 사이에 존재하는 개념과 접근을 객체지향적으로 다루기 위한 기술이다.*/
+}
+// 각종 라이브러리 버젼을 생략
+apply plugin: 'io.spring.dependency-management'
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+allOpen{
+    // 엔티티들을 기본적으로 상속 가능한 클래스로 만들어줌
+    annotation("javax.persistence.Entity")
+}
+
+
+//의존성을 가져올 주소를 설정
+repositories {
+    mavenCentral()
+}
+
+
+// Repository에서 가져올 아티팩트를 설정.
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    // 웹 의존성 추가
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    // Database 관련 의존성을 추가함
+    implementation "org.springframework.boot:spring-boot-starter-jdbc"
+    implementation "org.springframework.boot:spring-boot-starter-data-jpa"
+    // 크틀린 리플렉션 기능 필요
+    implementation "org.jetbrains.kotlin:kotlin-reflect"
+
+    // 크틀린 암호 기능 추가
+    implementation "org.mindrot:jbcrypt:0.4"
+
+    // 데이터베이스를 위한 의존성 추가
+    runtimeOnly 'mysql:mysql-connector-java'
+
+}
+
+compileKotlin{
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+compileTestKotlin{
+    kotlinOptions.jvmTarget = "1.8"
+}
+
+/*
+해당 내용을 참조
+https://woowabros.github.io/tools/2019/04/30/gradle-kotlin-dsl.html
+*/
